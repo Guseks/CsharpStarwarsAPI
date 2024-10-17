@@ -1,0 +1,52 @@
+.list-headline {
+  color: rgb(40,40,40);
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+li {
+  
+  margin-bottom: 3px;
+  font-weight: 500;
+  position: relative;
+  
+}
+
+li .btn {
+  position: absolute;
+  left: 300px;
+  top: 18%;
+  padding: 0px 5px;
+}
+
+.list-header {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Change the background color as needed */
+  z-index: 1; /* Ensure the header is on top */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.list-container {
+  position: relative;
+  overflow-y: auto;
+  max-height: 400px;
+  margin-top: 10px;
+  
+
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  
+}
+
+.list-group-item {
+  opacity: 1;
+  transition: 0.1s ease;
+}

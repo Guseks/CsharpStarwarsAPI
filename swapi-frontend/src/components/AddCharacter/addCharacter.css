@@ -1,0 +1,13 @@
+.character-headline {
+  color: rgb(40,40,40);
+  font-size: 20px;
+}
+
+form .btn {
+  margin-top: 10px;
+  padding: 2px 8px;
+}
+
+.name-error {
+  height: 10px;
+}

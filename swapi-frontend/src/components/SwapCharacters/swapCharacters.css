@@ -1,0 +1,12 @@
+.swap-headline{
+  color: rgb(40,40,40);
+  font-size: 20px;
+}
+
+.swap-error {
+  height: 30px;
+}
+
+.swap-button {
+  padding: 2px 8px;
+}
